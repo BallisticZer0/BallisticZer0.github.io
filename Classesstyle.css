@@ -6,12 +6,12 @@ font-size:large;}
 .special{color:#98ff98;
 	font-family:monospace;}
 body{color:grey;
-background-color:grey;
+background-color:#b3b3b3;
 text-align: center;
 
 }
 hr{height:20px;
 	border-color:green
 	width:50%;
-	background-color:#b3b3b3;
+	background-color:#98ff98;
 	}
