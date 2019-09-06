@@ -7,11 +7,11 @@ font-size:large;}
 	font-family:monospace;}
 body{color:grey;
 background-color:grey;
-@@ -13,7 +13,7 @@ text-align: center;
+text-align: center;
 
 }
 hr{height:20px;
 	border-color:green
 	width:50%;
-	background-color:grey;
+	background-color:#b3b3b3;
 	}
