@@ -6,12 +6,8 @@ font-size:large;}
 .special{color:#16173C;
 	font-family:monospace;}
 body{color:#337583;
-background-color:#2CDFB8;
+background-image:;
 text-align: center;
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
