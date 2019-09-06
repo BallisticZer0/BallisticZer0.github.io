@@ -5,16 +5,13 @@ font-size:30px;}
 font-size:large;}
 .special{color:#98ff98;
 	font-family:monospace;}
-.special2
-body{color:#1bc2ac;
-background-color:#b3b3b3;
-font-size:26px;
-text-align: center;
-
+body{color:grey;
+background-color:grey;
+@@ -13,7 +13,7 @@ text-align: center;
 
 }
 hr{height:20px;
 	border-color:green
 	width:50%;
-	background-color:#98ff98;
+	background-color:grey;
 	}
