@@ -3,7 +3,7 @@ font-size:30px;}
 
 .bluetwo{color:blue;
 font-size:large;}
-.special{color:#d000ff;
+.special{color:#98ff98;
 	font-family:monospace;}
 body{color:grey;
 background-color:grey;
@@ -13,7 +13,7 @@ text-align: center;
 
 }
 hr{height:20px;
-	border-color:grey
+	border-color:green
 	width:50%;
-	background-color:grey;
+	background-color:blue;
 	}
