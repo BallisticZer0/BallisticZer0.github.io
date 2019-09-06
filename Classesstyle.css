@@ -5,21 +5,23 @@ font-size:30px;}
 font-size:large;}
 .special{color:#16173C;
 	font-family:monospace;}
-body{color:#337583;
-background-image: url("img2.png");
+body{color:#337583;}
+{background-image: url("img2.png")
+
+
 
   /* Add the blur effect */
-filter: blur(8px);
--webkit-filter: blur(8px);
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
 
-  /* Full height */
-height: 100%;
+	  /* Full height */
+	height: 100%;
 
-  /* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-text-align: center;
+	  /* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
 }
 
 * {
