@@ -2,21 +2,84 @@
 <html lang="en">
 <head>
 <meta charset = "utf-8">
-<title>BZ0 Videos</title>
+<b><title>BZ0 Videos</title></b>
 
-          <link rel = "stylesheet" type = "text/css" href = "Classesstyle.css">
+<head>
+<link rel = "stylesheet" type = "text/css" href = "Classesstyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("img2.png");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color:#2CDFB8 ;
+  font-weight: bold;
+  border: 4px solid #337583;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#rcorners1 {
+  border-radius: 15px 50px 30px;
+}
+
+
+
+
+
+</style>
 </head>
-          <body>
-                    <hr>
+<body>
 
-<nav>
-          <p><a href="index.html"><img src="button_home.png"></a>
-             <a href="Suggestions.html"><img src="button_suggestions.png"></a>
+<div class="bg-image"></div>
+<div class="bg-text">
+  <hr>
+  <!--Lets work on classes and Ids-->
 
-         </p>
-</nav>
+  <nav>
+            <p><a href="https://www.youtube.com/channel/UC6jx_ASFUKhMuFUt0Q_Dttg?view_as=subscriber?sub_confirmation=1"><img src="button_subscribe.png"></a>
+               <a href="Suggestions.html"><img src="button_suggestions.png"></a>
+  	      <a href="index.html"><img src="button_home.png"></a>
 
+           </p>
+  </nav>
+
+</div>
 
 </body>
-</head>
 </html>
