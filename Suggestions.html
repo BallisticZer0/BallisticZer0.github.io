@@ -83,13 +83,18 @@ body, html {
 
 
 
-<form enctype="multipart/form-data" action="submissions.php" method="post" >
-  <label for="Suggestions">Suggestions:</label>
-  <input type="text" name="Suggestions" id="Suggestions">
-  <input type="submit" value="Submit">
-  <input type="reset" value="Reset">
+<form action="sub.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
 </form>
-
 
 
 </div>
