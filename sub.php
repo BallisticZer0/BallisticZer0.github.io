@@ -1,8 +1,8 @@
 <html>
 <body>
 
-Welcome <?php echo $_GET["name"]; ?><br>
-Your suggestion <?php echo $_GET["sug"]; ?><br>
+Welcome <?php echo $_GET["firstname"]; ?><br>
+Your suggestion <?php echo $_GET["suggestion"]; ?><br>
 has been noted and taking into consideration
 
 </body>
